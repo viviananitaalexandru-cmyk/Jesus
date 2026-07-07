@@ -1,0 +1,2 @@
+# Optional: drop custom .ttf fonts here. The renderer falls back to the system
+# DejaVu/Liberation fonts when this folder is empty.

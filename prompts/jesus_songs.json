@@ -1,0 +1,49 @@
+{
+  "description": "Example prompt templates for generating Jesus-themed nursery-rhyme songs and videos with external AI models (image/video/music). Use these with tools such as text-to-image, text-to-video or text-to-music models. The bundled procedural renderer does not require these, but they show how to extend the project with 'best available' AI tools/APIs.",
+  "style_guides": {
+    "visual": "Cocomelon-inspired 3D cartoon, soft rounded shapes, big friendly eyes, pastel colours, sunny outdoor scenes, gentle bounce animation, wholesome and safe for toddlers, 16:9.",
+    "music": "Sweet children's nursery-rhyme, simple singable melody, xylophone/glockenspiel/ukulele, soft child-like vocals, warm and comforting."
+  },
+  "songs": [
+    {
+      "title": "Jesus Loves Me",
+      "theme": "God's love for little children",
+      "image_prompt": "A fluffy smiling baby lamb on a green hill, small wooden cross behind, sunny sky with fluffy clouds, Cocomelon 3D style, pastel colours, 16:9.",
+      "video_prompt": "The baby lamb gently bounces and sways to a soft nursery melody while sunbeams shine, toddlers wave from the meadow.",
+      "music_prompt": "Gentle 96 bpm lullaby-pop version of 'Jesus Loves Me', ukulele and xylophone, sweet child vocals.",
+      "lyrics_seed": "Jesus loves me, this I know, for the Bible tells me so."
+    },
+    {
+      "title": "Jesus Is My Friend",
+      "theme": "Jesus as a loving friend",
+      "image_prompt": "A cute round white dove with rosy cheeks over a flower meadow, rainbow, Cocomelon 3D style, 16:9.",
+      "video_prompt": "The dove glides and loops over flowers while children clap; rainbow shimmers.",
+      "music_prompt": "Upbeat 108 bpm toddler pop, claps and glockenspiel, joyful kids choir.",
+      "lyrics_seed": "Jesus is my friend today, He walks with me every day."
+    },
+    {
+      "title": "This Little Light of Mine",
+      "theme": "Shining God's light to others",
+      "image_prompt": "A glowing smiling yellow star in a twilight sky with golden sparkles, children holding candles below, Cocomelon 3D style, 16:9.",
+      "video_prompt": "The star twinkles and bounces, sparkles trail behind, candlelight glows warmly.",
+      "music_prompt": "Joyful 100 bpm gospel kids song, hand claps and tambourine, call-and-response choir.",
+      "lyrics_seed": "This little light of mine, I'm gonna let it shine."
+    },
+    {
+      "title": "He's Got the Whole World",
+      "theme": "God cares for the whole world",
+      "image_prompt": "Two gentle hands cupping a smiling cartoon Earth, soft clouds and stars, Cocomelon 3D style, warm colours, 16:9.",
+      "video_prompt": "The little Earth spins slowly and giggles inside glowing hands while stars twinkle.",
+      "music_prompt": "Warm 92 bpm sing-along, acoustic guitar and soft bells, comforting kids choir.",
+      "lyrics_seed": "He's got the whole world in His hands."
+    },
+    {
+      "title": "Praise Him All Day",
+      "theme": "Joyful praise and worship",
+      "image_prompt": "A happy baby lamb jumping among balloons and confetti in a sunny field, Cocomelon 3D style, party vibe, 16:9.",
+      "video_prompt": "The lamb jumps, claps and spins as confetti falls and balloons float up.",
+      "music_prompt": "Energetic 120 bpm praise song, drums, claps, bright brass, excited kids choir.",
+      "lyrics_seed": "Clap your hands and praise His name!"
+    }
+  ]
+}

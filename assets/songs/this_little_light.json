@@ -1,0 +1,19 @@
+{
+  "title": "This Little Light of Mine",
+  "bpm": 100,
+  "key": "C4",
+  "sky_top": "#6EC1FF",
+  "sky_bottom": "#FFF6D8",
+  "accent": "#FFD34E",
+  "character": "star",
+  "video_prompt": "Cocomelon 3D style, a glowing yellow smiling star bouncing in a twilight sky, warm golden sparkles, small children holding candles below, cozy and heart-warming, vivid colours, 16:9.",
+  "music_prompt": "Classic gospel children's song 'This Little Light of Mine', hand claps, tambourine, joyful call-and-response kids choir, bright piano, 100 bpm.",
+  "lyrics": [
+    { "text": "This little light of mine,", "duration": 3.0, "notes": ["C4", "E4", "G4", "G4", "E4"] },
+    { "text": "I'm gonna let it shine!", "duration": 3.0, "notes": ["C4", "E4", "G4", "A4", "G4"] },
+    { "text": "This little light of mine,", "duration": 3.0, "notes": ["C4", "E4", "G4", "G4", "E4"] },
+    { "text": "I'm gonna let it shine!", "duration": 3.0, "notes": ["C4", "E4", "G4", "A4", "G4"] },
+    { "text": "Let it shine, let it shine,", "duration": 3.0, "notes": ["G4", "F4", "E4", "F4", "E4"] },
+    { "text": "let it shine!", "duration": 2.6, "notes": ["D4", "D4", "C4"] }
+  ]
+}

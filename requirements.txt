@@ -1,0 +1,13 @@
+# Core dependencies for the Cocomelon-style Jesus video generator.
+# Pinned to the versions verified in development.
+
+moviepy>=2.1,<3        # Video assembly / rendering (uses ffmpeg under the hood)
+numpy>=1.26            # Procedural melody + audio buffers
+Pillow>=10.3           # Drawing backgrounds, characters and karaoke lyrics
+
+# --- Optional vocals ("best available" TTS engines) ---
+# gTTS uses Google's online text-to-speech API (needs internet at runtime).
+gTTS>=2.5
+# pyttsx3 is a fully offline engine but requires the system `espeak`/`espeak-ng`
+# package to be installed. It is used automatically when available.
+pyttsx3>=2.90
