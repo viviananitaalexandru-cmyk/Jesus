@@ -1,0 +1,19 @@
+{
+  "title": "Jesus Loves Me",
+  "bpm": 96,
+  "key": "C4",
+  "sky_top": "#7FC8FF",
+  "sky_bottom": "#EAF7FF",
+  "accent": "#FFC93C",
+  "character": "lamb",
+  "video_prompt": "Cocomelon 3D style, a fluffy smiling baby lamb dancing on a sunny green hill with rolling clouds, a small wooden cross in the background, soft pastel colours, big friendly eyes, gentle bouncing to the beat, cheerful nursery-rhyme atmosphere, 16:9.",
+  "music_prompt": "A gentle, cheerful children's nursery-rhyme version of 'Jesus Loves Me', soft xylophone and ukulele, sweet child-like vocals, slow 96 bpm, warm and comforting.",
+  "lyrics": [
+    { "text": "Jesus loves me, this I know,", "duration": 3.2, "notes": ["C4", "C4", "G4", "G4", "A4", "A4", "G4"] },
+    { "text": "For the Bible tells me so.", "duration": 3.2, "notes": ["F4", "F4", "E4", "E4", "D4", "D4", "C4"] },
+    { "text": "Little ones to Him belong,", "duration": 3.2, "notes": ["G4", "G4", "F4", "F4", "E4", "E4", "D4"] },
+    { "text": "They are weak but He is strong.", "duration": 3.2, "notes": ["G4", "G4", "F4", "F4", "E4", "E4", "D4"] },
+    { "text": "Yes, Jesus loves me!", "duration": 2.8, "notes": ["C4", "C4", "G4", "A4", "G4"] },
+    { "text": "The Bible tells me so.", "duration": 3.0, "notes": ["F4", "E4", "D4", "D4", "C4"] }
+  ]
+}

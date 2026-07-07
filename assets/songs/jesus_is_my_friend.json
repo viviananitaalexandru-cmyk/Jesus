@@ -1,0 +1,19 @@
+{
+  "title": "Jesus Is My Friend",
+  "bpm": 108,
+  "key": "C4",
+  "sky_top": "#9AD0FF",
+  "sky_bottom": "#FFF4E8",
+  "accent": "#FF8FB1",
+  "character": "dove",
+  "video_prompt": "Cocomelon 3D style, a cute round white dove with rosy cheeks gliding over a bright meadow full of flowers, rainbow in the sky, toddlers waving, super colourful, soft lighting, happy and playful, 16:9.",
+  "music_prompt": "Upbeat, bouncy toddler pop song 'Jesus Is My Friend', claps, glockenspiel, bright synth bells, joyful kids choir, 108 bpm.",
+  "lyrics": [
+    { "text": "Jesus is my friend today,", "duration": 2.8, "notes": ["C4", "D4", "E4", "E4", "G4"] },
+    { "text": "He walks with me every day.", "duration": 2.8, "notes": ["G4", "F4", "E4", "D4", "C4"] },
+    { "text": "When I'm happy, when I'm sad,", "duration": 2.8, "notes": ["E4", "E4", "F4", "F4", "G4"] },
+    { "text": "Jesus loves me, I am glad!", "duration": 2.8, "notes": ["G4", "A4", "G4", "F4", "E4"] },
+    { "text": "La la la, sing and play,", "duration": 2.6, "notes": ["C4", "E4", "G4", "E4", "C4"] },
+    { "text": "Jesus is my friend today!", "duration": 3.0, "notes": ["G4", "E4", "D4", "D4", "C4"] }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "He's Got the Whole World",
+  "bpm": 92,
+  "key": "C4",
+  "sky_top": "#77C6FF",
+  "sky_bottom": "#F3ECFF",
+  "accent": "#5FB0FF",
+  "character": "dove",
+  "video_prompt": "Cocomelon 3D style, a gentle white dove circling a smiling cartoon Earth held in soft glowing hands, twinkling stars, calm warm colours, comforting bedtime feel, 16:9.",
+  "music_prompt": "Warm, comforting 92 bpm sing-along of 'He's Got the Whole World in His Hands', acoustic guitar and soft bells, tender kids choir.",
+  "lyrics": [
+    { "text": "He's got the whole world", "duration": 2.6, "notes": ["C4", "C4", "E4", "G4", "G4"] },
+    { "text": "in His hands,", "duration": 2.4, "notes": ["A4", "G4", "E4"] },
+    { "text": "He's got the whole wide world", "duration": 2.8, "notes": ["C4", "C4", "E4", "G4", "A4", "G4"] },
+    { "text": "in His hands,", "duration": 2.4, "notes": ["E4", "D4", "C4"] },
+    { "text": "He's got the whole world in His hands,", "duration": 3.2, "notes": ["C4", "E4", "G4", "G4", "A4", "G4", "E4"] },
+    { "text": "He's got the whole world in His hands!", "duration": 3.4, "notes": ["G4", "E4", "F4", "D4", "E4", "D4", "C4"] }
+  ]
+}

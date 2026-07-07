@@ -1,0 +1,17 @@
+{
+  "title": "Praise Him All Day",
+  "bpm": 120,
+  "key": "C4",
+  "sky_top": "#8AD4FF",
+  "sky_bottom": "#EFFFF0",
+  "accent": "#7ED957",
+  "character": "lamb",
+  "video_prompt": "Cocomelon 3D style, a happy baby lamb jumping and clapping in a bright green field with balloons and confetti, sunny sky, extremely colourful and energetic, party vibe for toddlers, 16:9.",
+  "music_prompt": "High-energy toddler praise song 'Praise Him All Day', drums, hand claps, bright brass stabs, excited kids choir shouting praise, 120 bpm.",
+  "lyrics": [
+    { "text": "Clap your hands and praise His name,", "duration": 2.4, "notes": ["C4", "C4", "E4", "G4", "E4"] },
+    { "text": "Jesus loves us all the same.", "duration": 2.4, "notes": ["G4", "F4", "E4", "D4", "C4"] },
+    { "text": "Jump up high and shout hooray,", "duration": 2.4, "notes": ["E4", "F4", "G4", "A4", "G4"] },
+    { "text": "We will praise Him all the day!", "duration": 2.6, "notes": ["G4", "E4", "D4", "D4", "C4"] }
+  ]
+}

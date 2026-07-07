@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cocomelon-jesus"
+version = "0.1.0"
+description = "Generate Cocomelon-style nursery-rhyme videos for Christian songs about Jesus."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Cocomelon Jesus Project" }]
+keywords = ["video", "kids", "nursery-rhyme", "christian", "moviepy", "ai"]
+
+dependencies = [
+    "moviepy>=2.1,<3",
+    "numpy>=1.26",
+    "Pillow>=10.3",
+]
+
+[project.optional-dependencies]
+# Optional text-to-speech backends for sung/spoken vocals.
+vocals = ["gTTS>=2.5", "pyttsx3>=2.90"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+# Convenience console entry point (after `pip install -e .`).
+jesus-video = "cocomelon_jesus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

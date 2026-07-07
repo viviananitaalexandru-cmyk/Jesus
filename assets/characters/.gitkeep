@@ -1,0 +1,3 @@
+# Character sprites are drawn procedurally at runtime (see
+# src/cocomelon_jesus/visuals/characters.py). Drop custom PNG art here to
+# extend the cast. This file keeps the folder in version control.
