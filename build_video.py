@@ -196,9 +196,11 @@ def render_character_clip(idx: int, phrase: Phrase, duration: float) -> Path:
         pose_t = (t * phrase.cycles) % 1.0
         frame = interpolate_pose(poses, pose_t)
 
-        bounce_y = int(phrase.bounce * math.sin(i * 0.32))
-        sway_x = int((phrase.bounce * 0.35) * math.sin(i * 0.21))
-        pulse = 1.0 + 0.012 * math.sin(i * 0.38)
+        # Cocomelon-style rhythmic head-bob (snappy up-down on beat)
+        beat = math.sin(i * 0.42)
+        bounce_y = int(phrase.bounce * (beat ** 3))
+        sway_x = int((phrase.bounce * 0.25) * math.sin(i * 0.21))
+        pulse = 1.0 + 0.018 * abs(beat)
         frame = apply_motion(frame, bounce_y, sway_x, pulse)
         frame = draw_lyrics(frame, phrase)
         proc.stdin.write(frame.tobytes())
